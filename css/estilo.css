@@ -1,4 +1,4 @@
-.shield-virus {
+i {
   animation: fluido 30s ease-in-out infinite;
   background: linear-gradient(-45deg, #10fe09, #335eff, #23a6d5, #23d5ab);
   background-size: 300%;
@@ -18,3 +18,6 @@
     background-position: 0 50%;
   }
 }
+.carousel-item {
+  data-interval="5";
+} 
