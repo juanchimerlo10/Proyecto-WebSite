@@ -1,0 +1,6 @@
+corazon con frecuencia <i class="fas fa-heartbeat"></i>
+botiquin <i class="fas fa-first-aid"></i>
+Ficha medica <i class="fas fa-file-medical-alt"></i>
+Virus 1 <i class="fas fa-viruses"></i>
+Virus escudo <i class="fas fa-shield-virus"></i>
+Barbijo <i class="fas fa-head-side-mask"></i>
