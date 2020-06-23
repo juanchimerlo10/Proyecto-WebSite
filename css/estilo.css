@@ -21,3 +21,9 @@ i {
 .carousel-item {
   data-interval="5";
 } 
+footer {
+  background-color: whitesmoke;
+}
+nav {
+background-color: whitesmoke;
+}
