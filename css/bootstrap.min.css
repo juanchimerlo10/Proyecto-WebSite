@@ -1,11 +1,10 @@
 html {
     background: #f7f9ff;
-    font-size: 10px;
   }
   
   .errorPageRap {
     text-align: center;
-    margin: 5rem 0 13rem 0;
+  
   }
   .errorPageRap .holoContainer {
     position: relative;
@@ -213,6 +212,14 @@ html {
       clip: rect(16.5rem, 25.8rem, 40rem, 0);
     }
   }
+
+} 
+footer {
+  background-color: #A2D2E9;
+}
+nav {
+background-color:#A2D2E9;
+}
   /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
