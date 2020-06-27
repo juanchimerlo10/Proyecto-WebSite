@@ -3,10 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <title>Formulario</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=%20apple-system,%20BlinkMacSystemFont,%20%27Segoe%20UI%27,%20Roboto,%20Oxygen,%20Ubuntu,%20Cantarell,%20%27Open%20Sans%27,%20%27Helvetica%20Neue%27,%20sans-serif;" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="./css/estilopopup.css">
 </head>
 <body>
-    
+    <div class="contenedor">
+    <div class="overlay">
+        <div class="popup">
+            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <h3>Suscribite</h3>
+            <h5>y recibí noticias importantes sobre COVID-19</h5>
+            <form action="">
+                <div class="contenedor-inputs">
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="Correo">
+                </div>
+                <input type="submit" class="btn-submit" value="Suscribirse">
+            </form>
+        </div>
+    </div>
+    </div>
+    <script src="popup.js"></script>
 </body>
 </html>
