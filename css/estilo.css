@@ -36,3 +36,25 @@ background-color: whitesmoke;
   color: #23d5ab;}
 
 h1{font-size: 3em;color:#23a6d5}
+
+header {
+  background-color: whitesmoke;
+}
+.text1 {
+  font-family: "BentonBook",sans-serif;
+  font-size: 20px;
+  color: #121212;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+.texto2 {
+  font-family: "BentonBook",sans-serif;
+  font-size: 16px;
+  color: #121212;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+/* .mavic {
+  height: 700px;
+  width: auto;
+} */
