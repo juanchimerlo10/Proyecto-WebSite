@@ -26,13 +26,18 @@
     <!-- TITULO  -->
     <header class="container-fluid">
       <div class="d-flex flex-column flex-sm-row">
-        <a class="navbar-brand align-self-center" href="/index.html"
+        <a
+          class="navbar-brand align-self-center d-none d-sm-block"
+          href="/index.html"
           ><i class="fas fa-shield-virus fa-3x p-4"></i
         ></a>
         <i
-          ><h1 class="pt-4 p-2">
+          ><h1 class="d-block d-sm-none d-xs-none pt-4 p-2">
             Healt&Tech
-          </h1></i
+          </h1>
+          <h2 class="d-none d-sm-block mt-4 p-2">
+            Tecnologías Emergentes a partir de Covid-19
+          </h2></i
         >
       </div>
     </header>
@@ -90,7 +95,9 @@
     </div>
     <div class="container-fluid">
       <div class="row">
-        <h3 class="h3 col-sm-12 font-italic article-title d-block d-sm-none">
+        <h3
+          class="h3 col-md-offset-2 col-sm-12 font-italic article-title d-block d-sm-none"
+        >
           Drones para frenar la epidemia de COVID-19
         </h3>
       </div>
@@ -224,13 +231,13 @@
               </p>
             </div>
             <div class="Imagen-de-noticia mt-5">
-              <img src="/Logos/dronenoticia.jpg" alt="" />
+              <img class="img-fluid" src="/Logos/dronenoticia.jpg" alt="" />
               <p class="text-muted">
                 Imagen de la llegada de un dron de TerraDrone y Antwork al
                 Hospital de Xinchang. - Créditos: Terra Drone Co.
               </p>
             </div>
-            <div class="texto2 mt-5">
+            <div class="texto2">
               <p>
                 La crisis del coronavirus también ha servido para impulsar el
                 uso de drones en el reparto de alimentos. La empresa china de
@@ -247,6 +254,15 @@
                 ejemplo.
               </p>
             </div>
+            <br />
+            <div id="publicidad" class="container row justify-content-center">
+              <a href="">
+                <img
+                  class="container-fluid"
+                  src="/Logos/Publicidad.gif"
+                  alt="" /></a
+              ><!--container-fluid para que la imagen tambien sea responsive-->
+            </div>
           </div>
         </div>
 
@@ -255,12 +271,7 @@
     </div>
 
     <!-- Footer -->
-    <br />
-    <div id="publicidad" class="container row justify-content-center">
-      <a href="">
-        <img class="container-fluid" src="/Logos/Publicidad.gif" alt="" /></a
-      ><!--container-fluid para que la imagen tambien sea responsive-->
-    </div>
+
     <!-- FOOTER -->
     <br />
     <footer class="container-fluid text-center footer">
