@@ -19,28 +19,20 @@
       src="https://kit.fontawesome.com/6b281fced2.js"
       crossorigin="anonymous"
     ></script>
+    <script
+        var longText = $("#longText");
+    longText.text(longText.text().substring(0, 44));
+    ></script>
     <link rel="stylesheet" href="css/estilo.css" />
+
   </head>
   <body>
     <header class="bg-black">
       <!-- Encabezado -->
-      <header class="container-fluid">
-        <div class="d-flex flex-column flex-sm-row">
-          <a
-            class="navbar-brand align-self-center d-none d-sm-block"
-            href="/index.html"
-            ><i class="fas fa-shield-virus fa-3x p-4"></i
-          ></a>
-          <i
-            ><h1 class="d-block d-sm-none d-xs-none pt-4 p-2">
-              Healt&Tech
-            </h1>
-            <h2 class="d-none d-sm-block mt-4 p-2">
-              Tecnologías Emergentes a partir de Covid-19
-            </h2></i
-          >
-        </div>
-      </header>
+      <div class="d-flex align-content-around">
+     <a class="navbar-brand" href="/index.html"
+          ><i class="fas fa-shield-virus fa-4x p-4"></i
+        ></a> <h1 class="pt-4 pl-6">Tecnologías Emergentes a partir de Covid-19</h1></div>
       <!-- Navbar -->
       <nav class="navegacion navbar navbar-expand-lg bg-dark">
         
@@ -201,20 +193,20 @@
         </div>
       </section>
         <!-- NOTICIAS -->
-  <section class="container-fluid px-5">
+  <section class="container-fluid col-sm-12 col-md-8 row px-5 justify-content-around">
     <hr>
-    <article class="row justify-content-between">
+        <div class="row row-cols-1 row-cols-md-2">
       <!-- PRIMERA NOTICIA -->
-        <div class="col-sm-12 col-md-8 row justify-content-center ">
-           <div class="card shadow mb-5 rounded col-sm-12 col-md-12 col-lg-5 px-0 mr-1">
-                  <img src="https://nationalastro.org/wp-content/uploads/2020/03/Covid-19.jpg" class="card-img-top"
+                <div class="col">
+                  <div class="card shadow mb-5">
+                    <img src="https://nationalastro.org/wp-content/uploads/2020/03/Covid-19.jpg" class="card-img-top"
                       alt="Prevenir COVID-19">
-                  <div class="card-body bg-dark text-white">
-                      <h5 class="card-title">Medidas por COVID-19 <span class="badge badge-success ml-2">Nuevo</span>
-                      </h5>
-                      <p class="card-text">Prevención</p>
-                  </div>
-                  <div class="card-footer bg-dark row m-0 justify-content-between">
+                    <div class="card-body bg-dark text-white">
+                        <h5 class="card-title">Medidas por COVID-19 <span class="badge badge-success ml-2">Nuevo</span>
+                        </h5>
+                        <p class="card-text">Prevención</p>
+                    </div>
+                    <div class="card-footer bg-dark row m-0 justify-content-between">
                       <div>
                           <a href="#" class="btn btn-info"><strong>Ir a la noticia</strong></a>
                       </div>
@@ -223,9 +215,11 @@
                                       hora</strong></small> </p>
                       </div>
                   </div>
+                </div>
              <!-- SEGUNDA NOTICIA -->
            </div>
-              <div class="card shadow mb-5 bg-dark text-white rounded col-sm-12 col-md-12 col-lg-5 px-0 ml-1">
+           <div class="col">
+              <div class="card shadow mb-5">
                 <img src="https://www.mdzol.com/u/fotografias/m/2020/6/16/f608x342-53436_83159_0.jpg" class="card-img-top"
                     alt="Luz desinfectante">
                 <div class="card-body bg-dark text-white ">
@@ -244,13 +238,17 @@
                     </div>
                 </div>
               </div>
+            </DIV>
               <!-- TECERA NOTICIA -->
-              <div class="card shadow mb-5 bg-light text-white rounded col-sm-12 col-md-12 col-lg-5 px-0 mr-1">
+            <div class="col">
+              <div class="card shadow mb-5">
                 <img src="/Logos/test-cientificos-argentinos-g20200613-971170.jpg" class="card-img-top"
                     alt="Prevenir COVID-19">
                 <div class="card-body bg-dark text-white">
                     <h5 class="card-title">Científicos argentinos desarrollaron un kit de diagnóstico "más rápido" que el test PCR <span class="badge badge-success ml-2">Nuevo</span>
                     </h5>
+                    
+
                     <p class="card-text">Todo el proceso dura una hora y media. Ya fue aprobado por la ANMAT y podrían producir 100 mil kits por mes</p>
                 </div>
                 <div class="card-footer bg-dark row m-0 justify-content-between">
@@ -262,26 +260,30 @@
                                     hora</strong></small> </p>
                     </div>
                 </div>
+              </div>
             </div>
             <!-- CUARTA NOTICIA -->
-            <div class="card shadow mb-5 bg-dark text-white rounded col-sm-12 col-md-12 col-lg-5 px-0 mr-1">
-              <img src="/Logos/MINI.png" class="card-img-top"
-                  alt="Prevenir COVID-19">
-              <div class="card-body bg-dark text-white">
-                  <h5 class="card-title">Drones para frenar la epidemia de COVID-19
-                    <span class="badge badge-success ml-2">Nuevo</span>
-                  </h5>
-                  <p class="card-text">En la era del distanciamiento social impuesto por la pandemia generada por covid-19, la tecnología se ha convertido en uno de los grandes aliados en la lucha contra el coronavirus.</p>
+            <div class="col">
+              <div class="card shadow mb-5">
+                <img src="/Logos/MINI.png" class="card-img-top"
+                    alt="Prevenir COVID-19">
+                <div class="card-body bg-dark text-white">
+                    <h5 class="card-title">Drones para frenar la epidemia de COVID-19
+                      <span class="badge badge-success ml-2">Nuevo</span>
+                    </h5>
+                    <p class="card-text">En la era del distanciamiento social impuesto por la pandemia generada por covid-19, la tecnología se ha convertido en uno de los grandes aliados en la lucha contra el coronavirus.</p>
+                </div>
+                <div class="card-footer bg-dark row m-0 justify-content-between">
+                    <div>
+                        <a href="#" class="btn btn-info"><strong>Ir a la noticia</strong></a>
+                    </div>
+                    <div>
+                        <p class="card-text text-right"><small class="text-muted"><strong>hace 1
+                                    hora</strong></small> </p>
+                    </div>
+                </div>
               </div>
-              <div class="card-footer bg-dark row m-0 justify-content-between">
-                  <div>
-                      <a href="#" class="btn btn-info"><strong>Ir a la noticia</strong></a>
-                  </div>
-                  <div>
-                      <p class="card-text text-right"><small class="text-muted"><strong>hace 1
-                                  hora</strong></small> </p>
-                  </div>
-              </div>
+            </div>
           </div>
           <!-- PASAR PAGINA -->
           <div class="container">
@@ -306,7 +308,7 @@
             </div>
           </div>         
         </div>  
-      </article>
+      
   </section>
     </main>
 
@@ -336,7 +338,6 @@
           <div class="text-center text-primary">&copy;Todos los Derechos son Reservados - Rolling Code School</div>
         </div>
     </footer>
-        
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
