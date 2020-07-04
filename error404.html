@@ -19,46 +19,59 @@
 </head>
 <body>
     <header class="container-fluid">
-        <!-- Navbar -->
-        <nav
-          class="navegacion navbar navbar-expand-lg  ">
-          <a class="navbar-brand" href="/index.html"
-            ><i class="fas fa-shield-virus fa-2x"></i>
-          </a>
-          <button
-            class="navbar-toggler navbar-light"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><strong>Home</strong> <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><strong>Contacto</strong></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><strong>Nosotros</strong></a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link"><strong>Suscribite</strong></a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link"><strong>Iniciar sesión</strong></a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        <div class="d-flex flex-column flex-sm-row">
+          <a
+            class="navbar-brand align-self-center d-none d-sm-block"
+            href="/index.html"
+            ><i class="fas fa-shield-virus fa-3x p-4"></i
+          ></a>
+          <i
+            ><h1 class="d-block d-sm-none d-xs-none pt-4 p-2">
+              Healt&Tech
+            </h1>
+            <h2 class="d-none d-sm-block mt-4 p-2">
+              Tecnologías Emergentes a partir de Covid-19
+            </h2></i
+          >
+        </div>
       </header>
+      <!-- Navbar -->
+      <nav class="navegacion navbar navbar-expand-lg bg-dark sticky-top">
+        <button
+          class="navbar-toggler navbar-dark"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse bg-dark" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Suscribite</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Iniciar sesión</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
            
     <div class="errorPageRap">
         <div class="holoContainer">
