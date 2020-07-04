@@ -81,8 +81,8 @@
     <main role="main" class="d-flex flex-row flex-wrap">
       <!--con flex-wrap los items dentro de main van a bajar cuando cambie la resolucion del dispositivo-->
       <!-- CAROUSEL -->
-      <section class="container-fluid col-md-8  col-sm-12 m-0 p-0">
-        <!--usaremos 8 columnas para dispositivos a partir de resolucion medium y 12 columnas (ancho completo) para dispositivos pequeños. Para reforzar los margenes y paddings en cero puse: m0 y p-0-->
+      <section class="container-fluid col-lg-8  col-md-12 m-0 p-0">
+        <!--usaremos 8 columnas para dispositivos a partir de resolucion large y 12 columnas (ancho completo) a partir de dispositivos medianos. Para reforzar los margenes y paddings en cero puse: m0 y p-0-->
         <div
           id="carouselExampleFade"
           class="carousel slide carousel-fade"
@@ -124,78 +124,76 @@
         </div>
       </section>
       <!-- Apps Destacadas-->
-      <section class="d-flex col-12 col-md-4 flex-wrap align-content-around">
+      <row class="d-flex col-md-12 col-lg-4 flex-wrap justify-content-center">
         <!-- usaremos 4 columnas a partir de dispositivos resolucion medium y 12 columnas (ancho completo) para disposivos small. Los items bajarán y se alinearán con espacio intermedio-->
-        <h3 class="container-fluid">
-          <!--hacemos que el texto ocupe el ancho completo-->
-          Coronavirus APPS
+        <h3 class="container-fluid mt-2 " style="font-size: 1.8em; text-align:center;">
+          <!--hacemos que el texto ocupe el ancho completo y le damos un margen superior-->
+          APPS más descargadas
         </h3>
-        <div class="card col-5 col-md-3 m-1 p-1">
-          <img
-            src="https://lh3.googleusercontent.com/Va_8ZiUUMJmoDkjTu5dCHP5Lk8QQFG-zLUtcgBgGBX7CAbdACPCKHyTOo03wDgYiag=s180-rw"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <a
+        <div id="apps" class="card bg-dark col-3 col-md-2 col-lg-3 mr-1 mb-1 p-0">
+          <a
               href="https://play.google.com/store/apps/details?id=cat.gencat.mobi.StopCovid19Cat&hl=es_AR"
               target="_blank"
-              >Descarga</a
+              ><img
+            src="Logos/app-cuidar.jpg"
+            class="card-img-top"
+            alt=""
+          /></a
             >
+          <div class="card-body">
+              CUIDAR
+              <p class="card-text">Aplicación del Ministerio de Salud. Cuidado y prevención en pandemia
           </div>
         </div>
-        <div class="card col-5 col-md-3 m-1 p-1">
-          <img
-            src="https://lh3.googleusercontent.com/k_HOgmru1pzOKfyTE-H2iwAHmtV65pS3pkZBSGm704i1RY8Cr0B5o5Ows5L_QtMw2DI=s180-rw"
+        <div id="apps" class="card bg-dark col-3 col-md-2 col-lg-3 mr-1 mb-1 p-0">
+          <a href="https://play.google.com/store/apps/details?id=com.globalthinktec.coronatime_rioja" target="_blank"><img src="Logos/app-larioja.jpg" class="card-img-top" alt="..." /></a>
+          <div class="card-body">C19 Test
+            <p class="card-text">Información sobre síntomas del virus COVID-19 para prevenir su propagación</p>
+            
+          </div>
+        </div>
+        <div id="apps" class="card bg-dark col-3 col-md-2 col-lg-3 mr-1 mb-1 p-0">
+          <a
+              href="https://play.google.com/store/apps/details?id=cz.nmbbrno.covid"
+              target="_blank"
+              ><img
+            src="Logos/app-infocovid.jpg"
             class="card-img-top"
             alt="..."
-          />
-          <div class="card-body">
-            <a
-              href="https://play.google.com/store/apps/details?id=ar.gob.coronavirus&hl=es_AR"
-              target="_blank"
-              >Descargar</a
-            >
+          /></a>
+          <div id="apps" class="card-body">Covid-19!
+            <p class="card-text">Información actualizada en números en el mundo o un país específico</p>
           </div>
         </div>
-        <div class="card col-5 col-md-3 m-1 p-1">
-          <img
-            src="https://lh3.googleusercontent.com/F8fbUiGMlfjl8HDDhJNckLCYFTlNDgFFs2RQ6MKf4oXI08bxl3bLhzBbB6vSUEaV4NA=s180-rw"
+        <div id="apps" class="card bg-dark col-3 col-md-2 col-lg-3 mr-1 mb-1 p-0">
+          <a
+              href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings"
+              target="_blank"
+              ><img
+            src="Logos/app-zoom.jpg"
             class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <a
-              href="https://play.google.com/store/apps/details?id=org.pathcheck.covidsafepaths&hl=es_AR"
-              target="_blank"
-              >Descargar</a
-            >
+            alt=""/></a>
+          <div class="card-body">Zoom
+            <p class="card-text">Videoconferencias, reuniones en línea y mensajes grupales</p>
+            
           </div>
         </div>
-        <div class="card col-5 col-md-3 m-1 p-1">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="card-text">breve texto</p>
-            <a href="#" target="_blank">Enlace</a>
+        <div id="apps" class="card bg-dark col-3 col-md-2 col-lg-3 mr-1 mb-1 p-0">
+          <a href="https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically" target="_blank"><img src="Logos/app-tiktok.jpg" class="card-img-top" alt="..." /></a>
+          <div class="card-body">Tiktok
+            <p class="card-text">Una comunidad global de videos cortos y divertidos</p>
           </div>
         </div>
-        <div class="card col-5 col-md-3 m-1 p-1">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="card-text">breve texto</p>
-            <a href="#" target="_blank">Enlace</a>
+        <div id="apps" class="card bg-dark col-3 col-md-2 col-lg-3 mr-1 mb-1 p-0">
+          <a href="https://play.google.com/store/apps/details?id=com.netflix.mediaclient" target="_blank"><img src="Logos/app-netflix.jpg" class="card-img-top" alt="..." /></a>
+          <div class="card-body">Netflix
+            <p class="card-text mt-1">Las mejores series, películas, stand up y documentales</p>
           </div>
         </div>
-        <div class="card col-5 col-md-3 m-1 p-1">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="card-text">breve texto</p>
-            <a href="#" target="_blank">Enlace</a>
-          </div>
-        </div>
-      </section>
+        
+      </row>
         <!-- NOTICIAS -->
-  <section class="container-fluid col-sm-12 col-md-8 row px-5 justify-content-around">
+  <section class="container-fluid col-sm-12 col-lg-8 row px-5 justify-content-around">
     <hr>
         <div class="row row-cols-1 row-cols-md-2">
       <!-- PRIMERA NOTICIA -->
