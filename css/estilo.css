@@ -6,6 +6,7 @@ i {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: fluido 30s ease-in-out infinite;
+  text-align: center;
 }
 @keyframes fluido {
   0% {
@@ -23,23 +24,38 @@ i {
 } 
 footer {
   background-color: whitesmoke;
+  border-top: 1px solid #ccc;
 }
+#nav-footer{ background: white; border:none} 
+/*Este estilo es para que el nav del footer no tome los colores del nav superior*/
+
+/*!personalizacion de la navegación--------------------------------------*/
 nav {
-background-color: whitesmoke;
+  background: linear-gradient(180deg,#B4EDF5, #17A2B8);
+  border-top: 1px solid #17A2B8;
 }
-.nav-item a:link a:visited{
+.nav-item a{
   font-family: Arial, Helvetica, sans-serif; 
-  font-weight: normal;
-  font-size: 3em;
-  color: #23a6d5;}
+  display:block; 
+  text-align: center; 
+  color: #0e3788; 
+  font-weight: 600;}/* los links se mostrarán en bloques. texto centrado y con un leve grosor*/
+
+.nav-item a:link a:visited{
+  color: #23a6d5;}/* los links en su estilo normal y visitados tendran este color*/
 .nav-item a:hover{ 
-  color: #23d5ab;}
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);} 
+  /* el link on-mouse-over sera texto blanco y con una leve transparencia en el fondo*/
+/*personalizacion de la navegación - fin --------------------------------------*/
 
 h1{font-size: 3em;color:#23a6d5}
 
 header {
   background-color: whitesmoke;
 }
+h3{padding: 0;; color: #073DAB;}
+h2{ color:whitesmoke}
 .text1 {
   font-family: "BentonBook",sans-serif;
   font-size: 20px;

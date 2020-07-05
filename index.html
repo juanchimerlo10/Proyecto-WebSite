@@ -25,25 +25,25 @@
   </head>
   <body>
     <!-- TITULO  -->
-    <header class="container-fluid">
-      <div class="d-flex flex-column flex-sm-row">
+    <header class="container-fluid d-flex justify-content-around">
+      <div class="d-flex flex-column align-items-center flex-sm-row">
         <a
-          class="navbar-brand align-self-center d-none d-sm-block"
+          class="navbar-brand  d-sm-block"
           href="/index.html"
-          ><i class="fas fa-shield-virus fa-3x p-4"></i
+          ><i class="d-block sm-w-100 fas fa-shield-virus fa-3x "></i
         ></a>
-        <h1 class="d-block d-sm-none d-xs-none offset pt-4 p-2">
+        <h1 class="d-block  mt-3">
             Healt&Tech
           </h1>
-          <h2 class="d-none d-sm-block mt-4 p-2">
+          <h3 class="d-none d-md-block mt-4 ml-5 p-2">
             Tecnologías Emergentes a partir de Covid-19
-          </h2>
+          </h3>
       </div>
     </header>
     <!-- Navbar -->
-    <nav class="navegacion navbar navbar-expand-lg bg-dark sticky-top">
+    <nav class="navegacion navbar navbar-expand-lg  sticky-top p-0">
       <button
-        class="navbar-toggler navbar-dark"
+        class="navbar-toggler navbar-light"
         type="button"
         data-toggle="collapse"
         data-target="#navbarSupportedContent"
@@ -54,8 +54,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse bg-dark" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto d-flex justify-content-center">
           <li class="nav-item">
             <a class="nav-link" href="#"
               >Home <span class="sr-only">(current)</span></a
@@ -124,12 +124,12 @@
         </div>
       </section>
       <!-- Apps Destacadas-->
-      <row class="d-flex col-md-12 col-lg-4 flex-wrap justify-content-center">
+      <row class="d-flex bg-secondary col-md-12 col-lg-4 flex-wrap justify-content-center">
         <!-- usaremos 4 columnas a partir de dispositivos resolucion medium y 12 columnas (ancho completo) para disposivos small. Los items bajarán y se alinearán con espacio intermedio-->
-        <h3 class="container-fluid mt-2 " style="font-size: 1.8em; text-align:center;">
+        <h2 class="container-fluid mt-2 " style="font-size: 1.8em; text-align:center;">
           <!--hacemos que el texto ocupe el ancho completo y le damos un margen superior-->
           APPS más descargadas
-        </h3>
+        </h2>
         <div id="apps" class="card bg-dark col-3 col-md-2 col-lg-3 mr-1 mb-1 p-0">
           <a
               href="https://play.google.com/store/apps/details?id=cat.gencat.mobi.StopCovid19Cat&hl=es_AR"
@@ -288,7 +288,7 @@
           <!-- PASAR PAGINA -->
           <div class="container">
             <div class=" row justify-content-center">
-                <nav aria-label="Page navigation example">
+                <nav id="nav-footer" aria-label="Page navigation example">
                     <ul class="pagination">
                       <li class="page-item">
                         <a class="page-link" href="#" aria-label="Previous">
@@ -312,12 +312,13 @@
   </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Banner del pie -->
     <br>
-    <div id="publicidad" class="container row justify-content-center">
-      <a href=""> <img class="container-fluid" src="/Logos/Publicidad.gif" alt=""></a><!--container-fluid para que la imagen tambien sea responsive-->
+    <div id="publicidad" class="container-fluid d-flex justify-content-center">
+      <a href=""> <img class="container-fluid" src="/Logos/publicidad-covid19.gif" alt=""></a><!--container-fluid para que la imagen tambien sea responsive-->
     </div>
     <br>
+    <!-- Footer -->
     <footer class=" container-fluid text-center footer">
         <div class="container-fluid">
             <div class="row justify-content-between">
@@ -338,6 +339,7 @@
           <div class="text-center text-primary">&copy;Todos los Derechos son Reservados - Rolling Code School</div>
         </div>
     </footer>
+    <!-- Scripts -->
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
