@@ -77,3 +77,8 @@ h2{ color:whitesmoke}
 #apps .card-body {padding: 7px; }
 #apps .card-body {font-size:18px; color: white; font-weight: 600; text-align: center; }
 #apps .card-body .card-text{font-size: 12px; line-height: 15px; font-weight: normal; color: #999;}
+
+.alert {
+  background: linear-gradient(180deg,#B4EDF5, #17A2B8);
+  border-top: 1px solid #17A2B8;
+}
