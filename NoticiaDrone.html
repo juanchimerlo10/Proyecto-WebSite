@@ -21,6 +21,10 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/estilo.css " />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;1,300&family=Montserrat+Subrayada&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- TITULO  -->
@@ -63,7 +67,13 @@
             <a class="nav-link" href="#">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a href="/formulario.html" class="nav-link">Suscribite</a>
+            <a
+              href=""
+              class="nav-link"
+              data-target="#suscripcion"
+              data-toggle="modal"
+              >Suscribite</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contacto</a>
@@ -266,8 +276,6 @@
       </div>
     </div>
 
-    <!-- Footer -->
-
     <!-- FOOTER -->
     <br />
     <footer class="container-fluid text-center footer">
@@ -294,6 +302,67 @@
         </div>
       </div>
     </footer>
+    <!-- Modal Suscripción -->
+    <div
+      class="modal fade modal-dialog-center"
+      id="suscripcion"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <form action="">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                <h3 class="text-center"><strong>Suscribite!</strong></h3>
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ingresa tu usuario de e-mail"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                  required
+                />
+                <div class="input-group-append">
+                  <span class="input-group-text" id="basic-addon2"
+                    >ejemplo@gmail.com</span
+                  >
+                </div>
+              </div>
+              <div class="alert text-center" role="alert">
+                Recibiras nuestras noticias sobre Covid-19!
+              </div>
+            </div>
+
+            <div class="modal-footer modal-light">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                <!-- la propiedad dimsiss cierra la ventana -->
+                Cancelar
+              </button>
+              <!-- la clase submit permite enviar la informacion siempre y cuando este dentro de un formulario -->
+              <button type="submit" class="btn btn-success">Aceptar</button>
+            </div>
+          </form>
+          <!-- form -->
+        </div>
+      </div>
+    </div>
+    <!--//Modal Suscripcion-->
+    <!--scripts-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -23,7 +23,7 @@ i {
   data-interval="5";
 } 
 body {font-family: 'Exo 2', sans-serif; font-weight: 200;}
-.card-text{font-family: 'Exo 2', sans-serif; font-weight: 200;}
+
 footer {
   background-color: whitesmoke;
   border-top: 1px solid #ccc;
@@ -37,11 +37,11 @@ nav {
   border-top: 1px solid #17A2B8;
 }
 .nav-item a{
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Exo 2', sans-serif; font-weight: 500;
   display:block; 
   text-align: center; 
   color: #0e3788; 
-  font-weight: 200;}/* los links se mostrarán en bloques. texto centrado y con un leve grosor*/
+  }/* los links se mostrarán en bloques. texto centrado y con un leve grosor*/
 
 .nav-item a:link a:visited{
   color: #23a6d5;}/* los links en su estilo normal y visitados tendran este color*/
