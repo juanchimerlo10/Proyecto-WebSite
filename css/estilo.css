@@ -99,3 +99,5 @@ h2{ color:whitesmoke}
 .texto1 {
   background-color: whitesmoke;
 }
+
+#contacto{background-image: url(/Logos/bg-email.jpg); background-repeat: no-repeat; background-position-x: right;}
