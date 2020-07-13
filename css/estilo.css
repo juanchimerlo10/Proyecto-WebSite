@@ -101,3 +101,7 @@ h2{ color:whitesmoke}
 }
 
 #contacto{background-image: url(/Logos/bg-email.jpg); background-repeat: no-repeat; background-position-x: right;}
+
+.login {
+  color: #23a6d5;
+}
