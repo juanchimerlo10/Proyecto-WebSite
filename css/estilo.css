@@ -1,4 +1,4 @@
-i {
+ header, footer i {
   animation: fluido 30s ease-in-out infinite;
   background: linear-gradient(-45deg, #10fe09, #335eff, #23a6d5, #23d5ab);
   background-size: 300%;
@@ -78,11 +78,24 @@ h2{ color:whitesmoke}
   height: 700px;
   width: auto;
 } */
-#apps .card-body {padding: 7px; }
-#apps .card-body {font-size:18px; color: white; font-weight: 600; text-align: center; }
-#apps .card-body .card-text{font-size: 12px; line-height: 15px; font-weight: normal; color: #BFC8D0;}
 
+/*personalizacion del .card-body de las Apps*/
+#apps .card-body {padding: 7px; }
+#apps .card-body {font-size:18px; color: white; font-weight: 600; text-align: center; word-wrap: normal ; }
+#apps .card-body .card-text{font-size: 12px; line-height: 15px; font-weight: normal; color: #BFC8D0;}
+/*personalizacion del .card-body de las Noticias*/
+#noticia .card-body {min-height:18rem; word-wrap: break-word ;}
 .alert {
   background: linear-gradient(180deg,#B4EDF5, #17A2B8);
   border-top: 1px solid #17A2B8;
+}
+
+.quehacemos {
+  background-color: whitesmoke;
+}
+.team {
+  background-color: whitesmoke;
+}
+.texto1 {
+  background-color: whitesmoke;
 }
