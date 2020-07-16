@@ -58,13 +58,11 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto d-flex justify-content-center">
           <li class="nav-item">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link" href="index.html">Home </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
           </li>
           <li class="nav-item">
             <a
@@ -76,40 +74,34 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">Iniciar sesión</a>
+            <a href="#LogIn" class="nav-link">Iniciar sesión</a>
           </li>
         </ul>
       </div>
     </nav>
-    <!-- IMAGEN -->
-    <div
-      id="carouselExampleCaptions"
-      class="carousel slide"
-      data-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/Logos/MINI.jpg" class="mavic d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Drones para frenar la epidemia de COVID-19</h2>
+    <main role="main" class="d-flex flex-row flex-wrap">
+      <section class="container-fluid col-12 col-md-8  m-0 p-0">
+      <!-- IMAGEN -->
+        <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/Logos/MINI.jpg" class="mavic d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-lg-block">
+                <h2>Drones para frenar la epidemia de COVID 19</h2>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <h3
-          class="h3 col-md-offset-2 col-sm-12 font-italic article-title d-block d-sm-none"
-        >
-          Drones para frenar la epidemia de COVID-19
-        </h3>
-      </div>
-    </div>
-    <br />
+      
     <!-- Autor -->
+    <div class="container p-5 ">
     <div class="container">
       <div class="row">
         <div class="col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
@@ -135,16 +127,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="col-md-offset-2 col-md-8 col-sm-12 col-xs-12 col-lg-10">
+          
             <p class="text1">
               En la era del distanciamiento social impuesto por la pandemia
               generada por el virus SARS-COV-2, la tecnología se ha convertido
               en uno de los grandes aliados en la lucha contra el coronavirus.
             </p>
-          </div>
+          
           <hr />
           <div class="texto2">
-            <p class="col-md-offset-2 col-md-8 col-sm-12 col-xs-12 col-lg-10">
+            <p>
               Además del big data, la inteligencia artificial y otras
               herramientas como los robots medicalizados, los drones se han
               convertido en los protagonistas de esta batalla a distancia, por
@@ -157,8 +149,8 @@
           </div>
           <!-- TITULO CON VIDEO -->
           <br />
-          <div class="col-md-offset-2 col-md-8 col-sm-12 col-xs-12 col-lg-10">
-            <div class="titulo_articulo">
+          
+            <div class="titulo_articulo text-center">
               <h3>Detectar enfermos con "drones pandémicos"</h3>
             </div>
             <div class="texto2 mt-5">
@@ -181,9 +173,7 @@
             </div>
             <div class="container video">
               <div class="row">
-                <div
-                  class="col-md-offset-2 col-md-8 col-sm-12 col-xs-12 col-lg-10"
-                >
+                <div>
                   <div class="embed-responsive embed-responsive-16by9">
                     <iframe
                       class="embed-responsive-item shadow-lg"
@@ -214,7 +204,7 @@
             </div>
             <!-- SEGUNDA NOTICIA -->
             <hr class="mt-5" />
-            <div class="titulo_articulo2 mt-5">
+            <div class="titulo_articulo2 text-center mt-5">
               <h3>
                 Drones para repartir medicinas, alimentos y material médico
               </h3>
@@ -236,7 +226,7 @@
                 productos, los drones optimizan el tiempo de entrega.
               </p>
             </div>
-            <div class="Imagen-de-noticia mt-5">
+            <div class="Imagen-de-noticia text-center mt-5">
               <img class="img-fluid" src="/Logos/dronenoticia.jpg" alt="" />
               <p class="text-muted">
                 Imagen de la llegada de un dron de TerraDrone y Antwork al
@@ -270,14 +260,73 @@
               ><!--container-fluid para que la imagen tambien sea responsive-->
             </div>
           </div>
-        </div>
+        
 
         <!-- resto de la noticia -->
       </div>
     </div>
+  </div>
+  </section>
+<!--Aside-->
+<aside class="col-md-4 mx-0 px-0 pb-3 ">
+  <!-- Login -->
+  <h2 class="container-fluid pb-2 mb-2 mt-2 " style="font-size: 1.8em; text-align:center;" id="LogIn">
+   Inicia sesión </h2>
 
+  <div class="d-flex justify-content-center pb-2">
+   <div class="col-9 card bg-dark rounded shadow " style="width: 18rem;">
+     <div class="card-body">
+       <h5 class="card-title text-center"><i class="login"><strong>Bienvenido a Health&tech</strong></i></h5>
+       <hr />
+       <form>
+         <div class="form-group ">
+           <input
+             placeholder="Email"
+             type="email"
+             class="form-control"
+             id="exampleInputEmail1"
+             aria-describedby="emailHelp"
+           />
+         </div>
+         <div class="form-group">
+           <input
+             placeholder="Contraseña"
+             type="password"
+             class="form-control"
+             id="exampleInputPassword1"
+           />
+           <small id="emailHelp" class="form-text text-muted"
+           ><a href="/error404.html"><strong class="text-muted">Olvidaste tu contraseña?</strong></a></small>
+          </div>
+         </div>
+         <button type="submit" class="btn btn-success my-2 m-2">Log in</button>
+         <p class="login text-center"><i><strong> O puedes continuar con </strong></i></p>
+         <button type="submit" class="btn btn-primary my-2 m-2 text-center"><i class=" fab fa-facebook"></i> Facebook</button>
+         <button type="submit" class="btn btn-danger my-2 m-2"><i class=" fab fa-google"></i> Google</button>
+       </form>
+     </div>
+   </div>
+ </div>
+ 
+
+<hr class="m-3">
+<!--Seccion banners laterales-->
+<div id="banners" class="d-flex mt-4 flex-wrap justify-content-center">
+  <a href="https://rollingcodeschool.com/" target="_blank"> <img class="container-fluid mb-3" src="/Logos/banner-rolling.jpg" alt=""></a>
+  <a
+    href=""
+    class="nav-link"
+    data-target="#mascarilla"
+    data-toggle="modal"
+    > <img class="container-fluid mb-3" src="/Logos/banner-mascarilla.jpg" alt=""></a>
+    <a href="https://www.adobe.com/ar/creativecloud/plans.html?plan=team&sdid=N7FDRSFV&mv=display" target="_blank"> <img class="container-fluid mb-3" src="/Logos/Publicidad2.gif" alt=""></a>
+    <a href="https://www.cocacoladeargentina.com.ar/" target="_blank"> <img class="container-fluid mb-3" src="/Logos/coca-banner.gif" alt=""></a>
+  </div><!--//Fin banners laterales-->
+<hr>
+</aside><!--//Fin Aside-->
+</main>
     <!-- FOOTER -->
-    <br />
+    
     <footer class="container-fluid text-center footer">
       <div class="container-fluid">
         <div class="row justify-content-between">
