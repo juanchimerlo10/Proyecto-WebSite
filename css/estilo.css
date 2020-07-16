@@ -28,6 +28,7 @@ footer {
   background-color: whitesmoke;
   border-top: 1px solid #ccc;
 }
+
 #nav-footer{ background: white; border:none} 
 /*Este estilo es para que el nav del footer no tome los colores del nav superior*/
 
@@ -106,4 +107,4 @@ h2{ color:whitesmoke}
   color: #23a6d5;
 }
 
-#banners img{ width: 23em;}
+#banners img{ width: 100%; height: auto;}
