@@ -56,7 +56,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="error404.html">Nosotros</a>
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
           </li>
           <li class="nav-item">
             <a
@@ -71,34 +71,18 @@
             <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
           <li class="nav-item">
-            <a href="error.html" class="nav-link">Iniciar sesión</a>
+            <a href="#LogIn" class="nav-link">Iniciar sesión</a>
           </li>
         </ul>
       </div>
     </nav>
-    <!-- carousel -->
-    <!-- <section>
-      <div
-        id="carouselExampleSlidesOnly"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="/Logos/nosotros3.jpg"
-              class="d-block w-100"
-              alt="Covid y tencnologia"
-            />
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <section class="container">
-      <h1 class="display-4 text-center mt-5 text-uppercase">
+    <main role="main" class="d-flex flex-row flex-wrap">
+      <!--con flex-wrap los items dentro de main van a bajar cuando cambie la resolucion del dispositivo-->
+   <section class="container-fluid col-12 col-md-8  px-5 pt-5">
+    <h3>
         ¿Quiénes somos?
-      </h1>
-      <p class="texto1 text-center lead my-5">
+      </h3>
+      <p class="texto1 lead my-5">
         Somos una empresa de tecnología e informática aplicada a la salud y una
         de las unidades de negocios más importante del Grupo Hospital Privado.
         Nuestra empresa está conformada por un grupo interdisciplinario de
@@ -135,21 +119,18 @@
         </div>
         <div class="col-md-4 col-sm-8">
           <i class="fas fa-file-medical-alt fa-4x my-4"></i>
-          <h3>Mision</h3>
+          <h3>Misión</h3>
           <p>
-            Somos responsables de aplicar las Tecnologías de la información y
-            comunicación (TIC) a todas las áreas del cuidado de la salud, desde
-            la administración hasta la atención y promoción de la salud,
+            Somos responsables de aplicar las Tecnologías de la información (TIC) a todas las áreas del cuidado de la salud,
             construyendo soluciones orientadas a ampliar niveles de cobertura,
             aumentar la seguridad y proporcionar mejoras en la calidad y acceso
-            a servicios de salud. Nuestras soluciones satisfacen tanto los
-            ambitos asistenciales como los docentes y de investigación.
+            a servicios de salud.
           </p>
         </div>
       </div>
-    </section>
+      
     <!-- fotos -->
-    <section class="team container">
+    <div class="container">
       <h1 class="display-4 text-center mt-5 text-uppercase">
         Nuestro equipo
       </h1>
@@ -184,9 +165,64 @@
             <strong>Ochoa</strong>
           </h2>
         </div>
+        <div><h3 class="text-center">Nuestras soluciones satisfacen tanto los
+          ámbitos asistenciales como los docentes y de investigación.</h3></div>
       </div>
+    </div>
+    
     </section>
     <br />
+    <!--Aside-->
+  <aside class="col-md-12 col-lg-4 mx-0 px-0 pb-3 ">
+    <!-- Login -->
+    <h2 class="container-fluid pb-2 mb-2 mt-2 " style="font-size: 1.8em; text-align:center;" id="LogIn">
+     Inicia sesión </h2>
+
+    <div class="d-flex justify-content-center  ">
+     <div class="col-9 card bg-dark rounded shadow " style="width: 18rem;">
+       <div class="card-body">
+         <h5 class="card-title text-center"><i class="login"><strong>Bienvenido a Health&tech</strong></i></h5>
+         <hr />
+         <form>
+           <div class="form-group ">
+             <input
+               placeholder="Email"
+               type="email"
+               class="form-control"
+               id="exampleInputEmail1"
+               aria-describedby="emailHelp"
+             />
+           </div>
+           <div class="form-group">
+             <input
+               placeholder="Contraseña"
+               type="password"
+               class="form-control"
+               id="exampleInputPassword1"
+             />
+             <small id="emailHelp" class="form-text text-muted"
+             ><a href="/error404.html"><strong class="text-muted">Olvidaste tu contraseña?</strong></a></small>
+            </div>
+           </div>
+           <button type="submit" class="btn btn-success my-2 m-2">Log in</button>
+           <p class="login text-center"><i><strong> O puedes continuar con </strong></i></p>
+           <button type="submit" class="btn btn-primary my-2 m-2 text-center"><i class=" fab fa-facebook"></i> Facebook</button>
+           <button type="submit" class="btn btn-danger my-2 m-2"><i class=" fab fa-google"></i> Google</button>
+         </form>
+       </div>
+     </div>
+   </div>
+   
+ 
+<hr class="m-3">
+<!--Seccion banners laterales-->
+<div id="banners" class="d-flex mt-4 flex-wrap justify-content-center">
+  <a href="https://rollingcodeschool.com/" target="_blank"> <img class="container-fluid mb-3" src="/Logos/banner-rolling.jpg" alt=""></a>
+   <a href="https://www.cocacoladeargentina.com.ar/" target="_blank"> <img class="container-fluid mb-3" src="/Logos/coca-banner.gif" alt=""></a>
+</div><!--//Fin banners laterales-->
+<hr>
+
+</aside><!--//Fin Aside-->
     <!-- Footer -->
     <footer class="container-fluid text-center footer">
       <div class="container-fluid">
