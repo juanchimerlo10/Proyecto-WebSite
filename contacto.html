@@ -19,6 +19,7 @@
       src="https://kit.fontawesome.com/6b281fced2.js"
       crossorigin="anonymous"
     ></script>
+    
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;0,500;1,300&family=Montserrat+Subrayada&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilo.css" />
   </head>
@@ -88,24 +89,23 @@
                 <div class="col-12 pl-md-5 pt-5"><h3>Contacto</h3>
                   <p>Si desea ponerse en contacto con nuestro equipo de trabajo por favor envíenos un mensaje completando el siguiente formulario:</p></div>
                 <div class="col-12 d-flex pl-md-5 ">
-                  <form id="form-contacto" method="post" action="error404.html" role="form">
+                  <form name="form-contacto" method="post" action="#" onsubmit="">
                     <div class="controls">
 
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group">
                                     <label for="nombre">Nombre *</label>
-                                    <input id="nombre" type="text" class="form-control"
-                                        placeholder="Su nombre..." required="required"
-                                        data-error="Nombre es requerido">
+                                    <input id="nombre" name="nombre" type="text" class="form-control"
+                                        placeholder="Su nombre..." required="required">
                                 </div>
                             </div>
                             <div class="col-12 ">
                                 <div class="form-group">
                                     <label for="apellido">Apellido *</label>
-                                    <input id="apellido" type="text"
+                                    <input id="apellido" name="apellido" type="text"
                                         class="form-control" placeholder="Su apellido..."
-                                        required="required" data-error="Apellido es requerido">
+                                        required="required">
                                 </div>
                             </div>
                         </div>
@@ -113,16 +113,15 @@
                             <div class="col-12 ">
                                 <div class="form-group">
                                     <label for="email">Email *</label>
-                                    <input id="email" type="email" class="form-control"
-                                        placeholder="Su email..." required="required"
-                                        data-error="Se requiere un email válido.">
+                                    <input id="email" name="email" type="email" class="form-control"
+                                        placeholder="Su email..." required="required">
                                     <div class="help-block">Ingrese un email válido</div>
                                 </div>
                             </div>
                             <div class="col-12 ">
                                 <div class="form-group">
                                     <label for="telefono">Telefono</label>
-                                    <input id="tel" type="number" class="form-control"
+                                    <input id="tel" name="tel" type="number" class="form-control"
                                         placeholder="Su telefono...">
                                 </div>
                             </div>
@@ -131,9 +130,8 @@
                             <div class="col-12 ">
                                 <div class="form-group">
                                     <label for="mensaje">Mensaje *</label>
-                                    <textarea id="mensaje" class="form-control"
-                                        placeholder="Escriba su mensaje..." rows="4" required="required"
-                                        data-error="Por favor escriba su mensaje"></textarea>
+                                    <textarea id="mensaje" name="mensaje" class="form-control"
+                                        placeholder="Escriba su mensaje..." rows="4" required="required"data-error="Por favor escriba su mensaje"></textarea>
                                 </div>
                             </div>
 
